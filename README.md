@@ -10,6 +10,6 @@ http://localhost:8080/swagger-ui/
 #### spring.datasource.username = admin
 #### spring.datasource.password = admin
 #### spring.jpa.hibernate.ddl-auto=update
-#### kafka.bootstrap-servers=KFK-DEN-DEV-01:9092,KFK-DEN-DEV-02:9092,KFK-DEN-DEV-03:9092
+#### kafka.bootstrap-servers=localhost:9092
 #### kafka.groupid=bookservice
 #### audit.event.topic=sample.audit.event
